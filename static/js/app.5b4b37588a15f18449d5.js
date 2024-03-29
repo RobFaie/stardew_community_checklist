@@ -34,6 +34,8 @@ webpackJsonp([1],{"0Gaj":function(e,s){},"0pDX":function(e,s){},"1Z1F":function(
         {id:15,name:"Night Fishing Bundle",room:2,reward:"Small Glow Ring",items_required:3},
         {id:16,name:"Crab Pot Bundle",room:2,reward:"Crab Pot (3)",items_required:5},
         {id:17,name:"Specialty Fish Bundle",room:2,reward:"Dish O' The Sea (5)",items_required:4},
+        {id:37,name:"Quality Fish Bundle",room:2,reward:"Dish O' The Sea (5)",items_required:4},
+        {id:38,name:"Master Fisher's Bundle",room:2,reward:"Dish O' The Sea (5)",items_required:2},
 
         {id:18,name:"Blacksmith's Bundle",room:3,reward:"Furnace",items_required:3},
         {id:19,name:"Geologists's Bundle",room:3,reward:"Omni Geode (5)",items_required:4},
@@ -166,21 +168,26 @@ webpackJsonp([1],{"0Gaj":function(e,s){},"0pDX":function(e,s){},"1Z1F":function(
         {bundles:[{bundle_id:36,count:1,id:164}],name:"Juice",skills:["farming"],seasons:["fall"],id:154,source:"Keg product from Vegetables"},
         {bundles:[{bundle_id:36,count:1,id:165}],name:"Green Tea",skills:["farming"],seasons:["fall"],id:155,source:"Keg product from Tea Leaves"},
         
+
         {bundles:[{bundle_id:12,count:1,id:68}],name:"Sunfish",skills:["fishing"],seasons:["spring","summer"],id:61,source:"Found in Rivers, Daytime, Spring, and Summer."},
         {bundles:[{bundle_id:12,count:1,id:69}],name:"Catfish",skills:["fishing"],seasons:["spring","fall"],id:62,source:"Found in Rivers, Anytime, Spring and Fall. Only when raining."},
         {bundles:[{bundle_id:12,count:1,id:70}],name:"Shad",skills:["fishing"],seasons:["spring","summer","fall"],id:63,source:"Found in Rivers, Daytime, Spring, Summer, and Fall. Only when raining."},
         {bundles:[{bundle_id:12,count:1,id:71}],name:"Tiger Trout",skills:["fishing"],seasons:["fall","winter"],id:64,source:"Found in Rivers, Daytime (Early afternoon), Fall and Winter."},
+
         {bundles:[{bundle_id:13,count:1,id:72}],name:"Largemouth Bass",skills:["fishing"],seasons:["spring","summer","fall","winter"],id:65,source:"Found in Lakes, Daytime, All Seasons."},
         {bundles:[{bundle_id:13,count:1,id:73}],name:"Carp",skills:["fishing"],seasons:["spring","summer","fall","winter"],id:66,source:"Found in Lakes, Anytime, All Seasons."},
         {bundles:[{bundle_id:13,count:1,id:74}],name:"Bullhead",skills:["fishing"],seasons:["spring","summer","fall","winter"],id:67,source:"Found in Lakes, Anytime, All Seasons."},
         {bundles:[{bundle_id:13,count:1,id:75}],name:"Sturgeon",skills:["fishing"],seasons:["summer","winter"],id:68,source:"Found in Lakes, Daytime, Summer and Winter."},
+
         {bundles:[{bundle_id:14,count:1,id:76}],name:"Sardine",skills:["fishing"],seasons:["spring","fall","winter"],id:69,source:"Found in the Ocean, Daytime, Spring, Fall, and Winter."},
         {bundles:[{bundle_id:14,count:1,id:77}],name:"Tuna",skills:["fishing"],seasons:["summer","winter"],id:70,source:"Found in the Ocean, Daytime, Summer and Winter."},
         {bundles:[{bundle_id:14,count:1,id:78}],name:"Red Snapper",skills:["fishing"],seasons:["summer","fall"],id:71,source:"Found in the Ocean, Daytime, Summer and Fall. Only when raining."},
         {bundles:[{bundle_id:14,count:1,id:79}],name:"Tilapia",skills:["fishing"],seasons:["summer","fall"],id:72,source:"Found in the Ocean, Daytime, Summer and Fall."},
+
         {bundles:[{bundle_id:15,count:1,id:80}],name:"Walleye",skills:["fishing"],seasons:["fall","winter"],id:73,source:"Found in Rivers, Nighttime, Fall and Winter. Only when raining."},
         {bundles:[{bundle_id:15,count:1,id:81}],name:"Bream",skills:["fishing"],seasons:["spring","summer","fall","winter"],id:74,source:"Found in Rivers, Nighttime, All Seasons."},
         {bundles:[{bundle_id:15,count:1,id:82}],name:"Eel",skills:["fishing"],seasons:["spring","fall"],id:75,source:"Found in the Ocean, Nighttime, Spring or Fall. Only when raining."},
+
         {bundles:[{bundle_id:16,count:1,id:83}],name:"Lobster",skills:["fishing"],seasons:["spring","summer","fall","winter"],id:76,source:"Gathered from Crab Pots."},
         {bundles:[{bundle_id:16,count:1,id:84}],name:"Crayfish",skills:["fishing"],seasons:["spring","summer","fall","winter"],id:77,source:"Gathered from Crab Pot in rivers during any season."},
         {bundles:[{bundle_id:16,count:1,id:85}],name:"Crab",skills:["fishing","combat"],seasons:["spring","summer","fall","winter"],id:78,source:"Gathered from Crab Pots. Also drops from killing hermit crabs in The Mines."},
@@ -191,13 +198,27 @@ webpackJsonp([1],{"0Gaj":function(e,s){},"0pDX":function(e,s){},"1Z1F":function(
         {bundles:[{bundle_id:16,count:1,id:90}],name:"Periwinkle",skills:["fishing"],seasons:["spring","summer","fall","winter"],id:83,source:"Gathered from Crab Pots."},
         {bundles:[{bundle_id:16,count:1,id:91}],name:"Oyster",skills:["fishing","foraging"],seasons:["spring","summer","fall","winter"],id:84,source:"Gathered from Crab Pots. Can be foraged from areas with sand."},
         {bundles:[{bundle_id:16,count:1,id:92}],name:"Clam",skills:["fishing","foraging"],seasons:["spring","summer","fall","winter"],id:85,source:"Gathered from Crab Pots. Can be foraged from areas with sand."},
+
         {bundles:[{bundle_id:17,count:1,id:93}],name:"Pufferfish",skills:["fishing"],seasons:["summer"],id:86,source:"Found in the Ocean, Early Afternoon, Summer. May also be purchased from the Traveling Cart."},
         {bundles:[{bundle_id:17,count:1,id:94}],name:"Ghostfish",skills:["fishing","combat"],seasons:["spring","summer","fall","winter"],id:87,source:"Found in ponds in The Mines, Anytime, All Seasons. May also be dropped by Ghosts."},
         {bundles:[{bundle_id:17,count:1,id:95}],name:"Sandfish",skills:["fishing","combat"],seasons:["spring","summer","fall","winter"],id:88,source:"Found in the pond at Calico Desert. May also be purchased from the Traveling Cart."},
         {bundles:[{bundle_id:17,count:1,id:96}],name:"Woodskip",skills:["fishing"],seasons:["spring","summer","fall","winter"],id:89,source:"Found in the Secret Woods, Anytime, All Seasons. May also be purchased from the Traveling Cart."},
+
+        {bundles:[{bundle_id:37,count:1,id:166}],name:"Largemouth Bass (Gold Star)",skills:["fishing"],seasons:["spring","summer","fall","winter"],id:156,source:"Mountain Lake or Wilderness Farm, all seasons"},
+        {bundles:[{bundle_id:37,count:1,id:167}],name:"Shad (Gold Star)",skills:["fishing"],seasons:["spring","summer","fall"],id:157,source:"River, when raining, all seasons except Winter"},
+        {bundles:[{bundle_id:37,count:1,id:168}],name:"Tuna (Gold Star)",skills:["fishing"],seasons:["summer","winter"],id:158,source:"Ocean, Summer or Winter"},
+        {bundles:[{bundle_id:37,count:1,id:169}],name:"Walleye (Gold Star)",skills:["fishing"],seasons:["fall","winter"],id:159,source:"River, Mountain Lake, Forest Pond, or Forest Farm; when raining; Fall (or Winter w/ Rain Totem)"},
+
+        {bundles:[{bundle_id:38,count:1,id:170}],name:"Lava Eel",skills:["fishing"],seasons:["spring","summer","fall","winter"],id:160,source:"The Mines on the 100th floor during all seasons"},
+        {bundles:[{bundle_id:38,count:1,id:171}],name:"Scorpion Carp",skills:["fishing"],seasons:["spring","summer","fall","winter"],id:161,source:"The Desert during all seasons"},
+        {bundles:[{bundle_id:38,count:1,id:172}],name:"Octopus",skills:["fishing"],seasons:["summer","winter"],id:162,source:"Summer in the ocean and (more rarely) in Garbage Cans, & submarine ride at the Night Market (≈2% chance)."},
+        {bundles:[{bundle_id:38,count:1,id:173}],name:"Blobfish",skills:["fishing"],seasons:["winter"],id:163,source:"Submarine ride at the Night Market (Winter 15-17)."},
+
+
         {bundles:[{bundle_id:18,count:1,id:97}],name:"Copper Bar",skills:["mining"],seasons:["spring","summer","fall","winter"],id:90,source:"Smelting copper ore in the furnace."},
         {bundles:[{bundle_id:18,count:1,id:98}],name:"Iron Bar",skills:["mining"],seasons:["spring","summer","fall","winter"],id:91,source:"Smelting iron ore in the furnace."},
         {bundles:[{bundle_id:18,count:1,id:99}],name:"Gold Bar",skills:["mining"],seasons:["spring","summer","fall","winter"],id:92,source:"Smelting gold ore in the furnace."},
+
         {bundles:[{bundle_id:19,count:1,id:100}],name:"Quartz",skills:["mining"],seasons:["spring","summer","fall","winter"],id:93,source:"Found on all levels of The Mines and in geodes."},
         {bundles:[{bundle_id:19,count:1,id:101}],name:"Earth Crystal",skills:["mining"],seasons:["spring","summer","fall","winter"],id:94,source:"Found on levels 1 - 39 of The Mines and in geodes."},
         {bundles:[{bundle_id:19,count:1,id:102}],name:"Frozen Tear",skills:["mining"],seasons:["spring","summer","fall","winter"],id:95,source:"Found on levels 40 - 79 of The Mines and in geodes."},
