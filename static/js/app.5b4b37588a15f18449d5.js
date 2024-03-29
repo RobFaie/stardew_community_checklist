@@ -40,6 +40,8 @@ webpackJsonp([1],{"0Gaj":function(e,s){},"0pDX":function(e,s){},"1Z1F":function(
         {id:18,name:"Blacksmith's Bundle",room:3,reward:"Furnace",items_required:3},
         {id:19,name:"Geologists's Bundle",room:3,reward:"Omni Geode (5)",items_required:4},
         {id:20,name:"Adventurer's Bundle",room:3,reward:"Small Magnet Ring",items_required:2},
+        {id:39,name:"Treasure Hunter's Bundle",room:3,reward:"Lucky Lunch",items_required:5},
+        {id:40,name:"Engineer's Bundle",room:3,reward:"Furnace",items_required:3},
 
         {id:21,name:"Chef's Bundle",room:4,reward:"Pink Cake (x3)",items_required:6},
         {id:22,name:"Dye Bundle",room:4,reward:"Seed Maker",items_required:6},
@@ -223,30 +225,53 @@ webpackJsonp([1],{"0Gaj":function(e,s){},"0pDX":function(e,s){},"1Z1F":function(
         {bundles:[{bundle_id:19,count:1,id:101}],name:"Earth Crystal",skills:["mining"],seasons:["spring","summer","fall","winter"],id:94,source:"Found on levels 1 - 39 of The Mines and in geodes."},
         {bundles:[{bundle_id:19,count:1,id:102}],name:"Frozen Tear",skills:["mining"],seasons:["spring","summer","fall","winter"],id:95,source:"Found on levels 40 - 79 of The Mines and in geodes."},
         {bundles:[{bundle_id:19,count:1,id:103}],name:"Fire Quartz",skills:["mining"],seasons:["spring","summer","fall","winter"],id:96,source:"Found on levels 80 - 120 of The Mines and in magma geodes."},
+
         {bundles:[{bundle_id:20,count:99,id:104}],name:"Slime",skills:["combat"],seasons:["spring","summer","fall","winter"],id:97,source:"Dropped by Slimes in The Mines."},
         {bundles:[{bundle_id:20,count:10,id:105}],name:"Bat Wing",skills:["combat"],seasons:["spring","summer","fall","winter"],id:98,source:"Dropped by Bats in The Mines."},
         {bundles:[{bundle_id:20,count:1,id:106}],name:"Solar Essence",skills:["combat"],seasons:["spring","summer","fall","winter"],id:99,source:"Dropped by Ghosts in The Mines."},
         {bundles:[{bundle_id:20,count:1,id:107}],name:"Void Essence",skills:["combat"],seasons:["spring","summer","fall","winter"],id:100,source:"Dropped by Shadow Brutes in The Mines."},
+        {bundles:[{bundle_id:20,count:10,id:174}],name:"Bone Fragment",skills:["combat"],seasons:["spring","summer","fall","winter"],id:164,source:"Dropped by Skeletons in The Mines or crates and barrels in Skull Cavern, Artifact Spots"},
+
+        {bundles:[{bundle_id:39,count:1,id:175}],name:"Amethyst",skills:["mining"],seasons:["spring","summer","fall","winter"],id:165,source:"Gem Node or individual nodes for each gem type in The Mines; Panning; Fishing Treasure Chests"},
+        {bundles:[{bundle_id:39,count:1,id:176}],name:"Diamond",skills:["mining"],seasons:["spring","summer","fall","winter"],id:166,source:"Gem Node or individual nodes for each gem type in The Mines; Panning; Fishing Treasure Chests"},
+        {bundles:[{bundle_id:39,count:1,id:177}],name:"Emerald",skills:["mining"],seasons:["spring","summer","fall","winter"],id:167,source:"Gem Node or individual nodes for each gem type in The Mines; Panning; Fishing Treasure Chests"},
+        {bundles:[{bundle_id:39,count:1,id:178}],name:"Ruby",skills:["mining"],seasons:["spring","summer","fall","winter"],id:168,source:"Gem Node or individual nodes for each gem type in The Mines; Panning; Fishing Treasure Chests"},
+        {bundles:[{bundle_id:39,count:1,id:179}],name:"Topaz",skills:["mining"],seasons:["spring","summer","fall","winter"],id:169,source:"Gem Node or individual nodes for each gem type in The Mines; Panning; Fishing Treasure Chests"},
+
+        {bundles:[{bundle_id:40,count:1,id:181}],name:"Iridium Ore",skills:["mining"],seasons:["spring","summer","fall","winter"],id:170,source:"Mines, Skull Cavern, Magma Geode, Omni Geode"},
+        {bundles:[{bundle_id:40,count:1,id:182}],name:"Battery Pack",skills:["foraging"],seasons:["spring","summer","fall","winter"],id:171,source:"Lightning Rod, Solar Panel, purchase from Traveling Cart"},
+        {bundles:[{bundle_id:40,count:5,id:183}],name:"Refined Quartz",skills:["mining","fishing"],seasons:["spring","summer","fall","winter"],id:172,source:"Furnace product from Quartz or Fire Quartz, Recycling Machine product from Broken Glasses or Broken CD"},
+
+
         {bundles:[{bundle_id:21,count:1,id:108},{bundle_id:32,count:5,id:137}],name:"Fiddlehead Fern",skills:["foraging"],seasons:["summer"],id:101,source:"Found in the Secret Woods during Summer."},
         {bundles:[{bundle_id:21,count:1,id:109}],name:"Truffle",skills:["farming"],seasons:["spring","summer","fall"],id:102,source:"Found by pigs while grazing outdoors."},
         {bundles:[{bundle_id:21,count:1,id:110}],name:"Poppy",skills:["farming"],seasons:["summer"],id:103,source:"Crops during Summer."},
         {bundles:[{bundle_id:21,count:1,id:111}],name:"Maki Roll",skills:["fishing"],seasons:["spring","summer","fall","winter"],id:104,source:"Acquired by Cooking. Recipe available from the cooking channel on Summer 21 during odd years."},
         {bundles:[{bundle_id:21,count:1,id:112}],name:"Fried Egg",skills:["farming"],seasons:["spring","summer","fall","winter"],id:105,source:"Acquired by Cooking."},
+
         {bundles:[{bundle_id:22,count:1,id:113}],name:"Sea Urchin",skills:["foraging"],seasons:["spring","summer","fall","winter"],id:106,source:"Can be foraged on the far right side of the beach, accessible after using 300 wood to fix the bridge."},
         {bundles:[{bundle_id:22,count:1,id:114},{bundle_id:35,count:1,id:156}],name:"Sunflower",skills:["farming"],seasons:["summer","fall"],id:107,source:"Crops during Summer and Fall."},
         {bundles:[{bundle_id:22,count:1,id:115}],name:"Duck Feather",skills:["farming"],seasons:["spring","summer","fall","winter"],id:108,source:"Produced by ducks in the coop (similar to how chickens and ducks lay eggs)"},
-        {bundles:[{bundle_id:22,count:1,id:116}],name:"Aquamarine",skills:["mining"],seasons:["spring","summer","fall","winter"],id:109,source:"Can be found in stones and boxes in The Mines."},
+        {bundles:[{bundle_id:22,count:1,id:116},{bundle_id:39,count:1,id:180}],name:"Aquamarine",skills:["mining"],seasons:["spring","summer","fall","winter"],id:109,source:"Can be found in stones and boxes in The Mines."},
         {bundles:[{bundle_id:22,count:1,id:117}],name:"Red Cabbage",skills:["farming"],seasons:["summer"],id:110,source:"Crops during the Summer. Seeds can be purchased from Pierre's Year 2 and onward. Can be purchased from the Traveling Cart"},
+
         {bundles:[{bundle_id:23,count:1,id:118}],name:"Nautilus Shell",skills:["foraging"],seasons:["winter"],id:111,source:"Found by foraging from the beach in the Winter."},
         {bundles:[{bundle_id:23,count:1,id:119}],name:"Chub",skills:["fishing"],seasons:["spring","summer","fall","winter"],id:112,source:"Can be found in the mountain lake and river during all seasons."},
         {bundles:[{bundle_id:23,count:1,id:120}],name:"Frozen Geode",skills:["mining"],seasons:["spring","summer","fall","winter"],id:113,source:"Found on levels 40-79 of The Mines."},
+
         {bundles:[{bundle_id:24,count:10,id:121}],name:"Wheat",skills:["farming"],seasons:["summer","fall"],id:114,source:"Crops during Summer and Fall."},
         {bundles:[{bundle_id:24,count:10,id:122}],name:"Hay",skills:["farming"],seasons:["spring","summer","fall","winter"],id:115,source:"Purchased from Marnie at The Ranch or created by using the sickle on grass once you have a silo."},
+
         {bundles:[{bundle_id:25,count:1,id:123},{bundle_id:36,count:1,id:161}],name:"Wine",skills:["farming","foraging"],seasons:["spring","summer","fall","winter"],id:117,source:"Produced by putting most fruits into a keg."},
         {bundles:[{bundle_id:25,count:1,id:124}],name:"Rabbit's Foot",skills:["farming","combat"],seasons:["spring","summer","fall","winter"],id:118,source:"Dropped by Rabbits in the Coop, also dropped by a Serpent in Skull Cavern (0.8%)."},
+
+
         {bundles:[{bundle_id:26,count:1,id:125}],name:"2,500 Gold",skills:["farming","mining","foraging","fishing","combat"],seasons:["spring","summer","fall","winter"],id:119,source:"Collect 2,500 Gold and turn in."},
+
         {bundles:[{bundle_id:27,count:1,id:126}],name:"5,000 Gold",skills:["farming","mining","foraging","fishing","combat"],seasons:["spring","summer","fall","winter"],id:120,source:"Collect 5,000 Gold and turn in."},
+
         {bundles:[{bundle_id:28,count:1,id:127}],name:"10,000 Gold",skills:["farming","mining","foraging","fishing","combat"],seasons:["spring","summer","fall","winter"],id:121,source:"Collect 10,000 Gold and turn in."},
+
         {bundles:[{bundle_id:29,count:1,id:128}],name:"25,000 Gold",skills:["farming","mining","foraging","fishing","combat"],seasons:["spring","summer","fall","winter"],id:122,source:"Collect 25,000 Gold and turn in."},
         // {bundles:[{bundle_id:99,count:99,id:999}],name:"__",skills:["farming","mining","foraging","fishing","combat"],seasons:["spring","summer","fall","winter"],id:124,source:"__"},
         // {bundles:[{bundle_id:99,count:99,id:999}],name:"__",skills:["farming","mining","foraging","fishing","combat"],seasons:["spring","summer","fall","winter"],id:125,source:"__"},
