@@ -48,6 +48,12 @@ webpackJsonp([1],{"0Gaj":function(e,s){},"0pDX":function(e,s){},"1Z1F":function(
         {id:23,name:"Field Research Bundle",room:4,reward:"Recycling Machine",items_required:4},
         {id:24,name:"Fodder Bundle",room:4,reward:"Heater",items_required:3},
         {id:25,name:"Enchanter's Bundle",room:4,reward:"Gold Bar (5)",items_required:4},
+        {id:41,name:"Children's Bundle",room:4,reward:"Battery Pack (3)",items_required:3},
+        {id:42,name:"Forager's Bundle",room:4,reward:"Tapper (3)",items_required:2},
+        {id:43,name:"Home Cook's Bundle",room:4,reward:"Complete Breakfast (5)",items_required:3},
+        {id:44,name:"Helper's Bundle",room:4,reward:"Stardrop Tea",items_required:2},
+        {id:45,name:"Spirit's Eve Bundle",room:4,reward:"Complete Breakfast (5)",items_required:3},
+        {id:46,name:"Winter Star Bundle",room:4,reward:"Mystery Box (3)",items_required:2},
 
         {id:26,name:"2,500 Bundle",room:5,reward:"Chocolate Cake (3)",items_required:1},
         {id:27,name:"5,000 Bundle",room:5,reward:"Quality Fertilizer (30)",items_required:1},
@@ -67,15 +73,15 @@ webpackJsonp([1],{"0Gaj":function(e,s){},"0pDX":function(e,s){},"1Z1F":function(
         {bundles:[{bundle_id:1,count:1,id:6}],name:"Sweet Pea",skills:["foraging"],seasons:["summer"],id:6,source:"Foraging during Summer."},
         
         {bundles:[{bundle_id:2,count:1,id:7}],name:"Common Mushroom",skills:["foraging"],seasons:["fall"],id:7,source:"Foraging during Fall Or if you have the mushroom in your cave."},
-        {bundles:[{bundle_id:2,count:1,id:8}],name:"Wild Plum",skills:["foraging"],seasons:["fall"],id:8,source:"Foraging during Fall."},
+        {bundles:[{bundle_id:2,count:1,id:8},{bundle_id:42,count:20,id:196}],name:"Wild Plum",skills:["foraging"],seasons:["fall"],id:8,source:"Foraging during Fall."},
         {bundles:[{bundle_id:2,count:1,id:9}],name:"Hazelnut",skills:["foraging"],seasons:["fall"],id:9,source:"Foraging during Fall."},
-        {bundles:[{bundle_id:2,count:1,id:10}],name:"Blackberry",skills:["foraging"],seasons:["fall"],id:10,source:"Foraging during Fall."},
+        {bundles:[{bundle_id:2,count:1,id:10},{bundle_id:42,count:50,id:195}],name:"Blackberry",skills:["foraging"],seasons:["fall"],id:10,source:"Foraging during Fall."},
         
         {bundles:[{bundle_id:3,count:1,id:11}],name:"Winter Root",skills:["foraging","combat"],seasons:["winter","spring","summer","fall"],id:11,source:"Foraging during Winter or dropped by slimes on 41-79 Mines levels."},
         {bundles:[{bundle_id:3,count:1,id:12}],name:"Crystal Fruit",skills:["foraging","combat"],seasons:["winter","spring","summer","fall"],id:12,source:"Foraging during Winter or dropped by coal sprites on 41-79 Mines levels."},
         {bundles:[{bundle_id:3,count:1,id:13}],name:"Snow Yam",skills:["foraging"],seasons:["winter"],id:13,source:"Foraging during Winter (Using a Hoe outside the farm)."},
         {bundles:[{bundle_id:3,count:1,id:14}],name:"Crocus",skills:["foraging"],seasons:["winter"],id:14,source:"Foraging during Winter."},
-        {bundles:[{bundle_id:3,count:1,id:130}],name:"Holy",skills:["foraging"],seasons:["winter"],id:124,source:"Foraging during Winter."},
+        {bundles:[{bundle_id:3,count:1,id:130},{bundle_id:46,count:5,id:208}],name:"Holy",skills:["foraging"],seasons:["winter"],id:124,source:"Foraging during Winter."},
         
         {bundles:[{bundle_id:4,count:99,id:15},{bundle_id:4,count:99,id:16}],name:"Wood",skills:["foraging"],seasons:["spring","summer","fall","winter"],id:15,source:"Chopping trees or logs using an axe."},
         {bundles:[{bundle_id:4,count:99,id:17}],name:"Stone",skills:["mining"],seasons:["spring","summer","fall","winter"],id:16,source:"Smashing stones with a pickaxe."},
@@ -89,7 +95,7 @@ webpackJsonp([1],{"0Gaj":function(e,s){},"0pDX":function(e,s){},"1Z1F":function(
         {bundles:[{bundle_id:31,count:10,id:135}],name:"Maple Seed",skills:["foraging"],seasons:["spring","summer","fall","winter"],id:129,source:"Shaking/Chopping Maple Trees"},
 
         {bundles:[{bundle_id:5,count:1,id:19}],name:"Coconut",skills:["foraging"],seasons:["spring","summer","fall","winter"],id:18,source:"Found in the desert."},
-        {bundles:[{bundle_id:5,count:1,id:20}],name:"Cactus Fruit",skills:["foraging"],seasons:["spring","summer","fall","winter"],id:19,source:"Found in the desert."},
+        {bundles:[{bundle_id:5,count:1,id:20},{bundle_id:22,count:1,id:184}],name:"Cactus Fruit",skills:["foraging"],seasons:["spring","summer","fall","winter"],id:19,source:"Found in the desert."},
         {bundles:[{bundle_id:5,count:1,id:21}],name:"Cave Carrot",skills:["mining"],seasons:["spring","summer","fall","winter"],id:20,source:"In boxes inside the mines or using the hoe on soil spots in the Mines."},
         {bundles:[{bundle_id:5,count:1,id:22},{bundle_id:22,count:1,id:23}],name:"Red Mushroom",skills:["foraging","mining"],seasons:["spring","summer","fall","winter"],id:21,source:"Can be found in the mines or in the farm cave if you selected the mushroom perk."},
         {bundles:[{bundle_id:5,count:1,id:24},{bundle_id:23,count:1,id:25},{bundle_id:32,count:5,id:136}],name:"Purple Mushroom",skills:["foraging","mining"],seasons:["spring","summer","fall","winter"],id:22,source:"Can be found in the mines or in the farm cave if you selected the mushroom perk."},
@@ -111,11 +117,11 @@ webpackJsonp([1],{"0Gaj":function(e,s){},"0pDX":function(e,s){},"1Z1F":function(
 
         {bundles:[{bundle_id:7,count:1,id:36}],name:"Tomato",skills:["farming"],seasons:["summer"],id:31,source:"Crops during Summer."},
         {bundles:[{bundle_id:7,count:1,id:37}],name:"Hot Pepper",skills:["farming"],seasons:["summer"],id:32,source:"Crops during Summer."},
-        {bundles:[{bundle_id:7,count:1,id:38}],name:"Blueberry",skills:["farming"],seasons:["summer"],id:33,source:"Crops during Summer."},
+        {bundles:[{bundle_id:7,count:1,id:38},{bundle_id:22,count:1,id:185}],name:"Blueberry",skills:["farming"],seasons:["summer"],id:33,source:"Crops during Summer."},
         {bundles:[{bundle_id:7,count:1,id:39}],name:"Melon",skills:["farming"],seasons:["summer"],id:34,source:"Crops during Summer."},
         {bundles:[{bundle_id:7,count:1,id:142}],name:"Summer Squash",skills:["farming"],seasons:["summer"],id:134,source:"Crops during Summer."},
         
-        {bundles:[{bundle_id:8,count:1,id:40}],name:"Corn",skills:["farming"],seasons:["summer","fall"],id:35,source:"Crops during Summer and Fall."},
+        {bundles:[{bundle_id:8,count:1,id:40},{bundle_id:45,count:10,id:202}],name:"Corn",skills:["farming"],seasons:["summer","fall"],id:35,source:"Crops during Summer and Fall."},
         {bundles:[{bundle_id:8,count:1,id:41}],name:"Eggplant",skills:["farming"],seasons:["fall"],id:36,source:"Crops during Fall."},
         {bundles:[{bundle_id:8,count:1,id:42}],name:"Pumpkin",skills:["farming"],seasons:["fall"],id:37,source:"Crops during Fall."},
         {bundles:[{bundle_id:8,count:1,id:43}],name:"Yam",skills:["farming"],seasons:["fall"],id:38,source:"Crops during Fall."},
@@ -227,7 +233,7 @@ webpackJsonp([1],{"0Gaj":function(e,s){},"0pDX":function(e,s){},"1Z1F":function(
         {bundles:[{bundle_id:19,count:1,id:103}],name:"Fire Quartz",skills:["mining"],seasons:["spring","summer","fall","winter"],id:96,source:"Found on levels 80 - 120 of The Mines and in magma geodes."},
 
         {bundles:[{bundle_id:20,count:99,id:104}],name:"Slime",skills:["combat"],seasons:["spring","summer","fall","winter"],id:97,source:"Dropped by Slimes in The Mines."},
-        {bundles:[{bundle_id:20,count:10,id:105}],name:"Bat Wing",skills:["combat"],seasons:["spring","summer","fall","winter"],id:98,source:"Dropped by Bats in The Mines."},
+        {bundles:[{bundle_id:20,count:10,id:105},{bundle_id:45,count:10,id:203}],name:"Bat Wing",skills:["combat"],seasons:["spring","summer","fall","winter"],id:98,source:"Dropped by Bats in The Mines."},
         {bundles:[{bundle_id:20,count:1,id:106}],name:"Solar Essence",skills:["combat"],seasons:["spring","summer","fall","winter"],id:99,source:"Dropped by Ghosts in The Mines."},
         {bundles:[{bundle_id:20,count:1,id:107}],name:"Void Essence",skills:["combat"],seasons:["spring","summer","fall","winter"],id:100,source:"Dropped by Shadow Brutes in The Mines."},
         {bundles:[{bundle_id:20,count:10,id:174}],name:"Bone Fragment",skills:["combat"],seasons:["spring","summer","fall","winter"],id:164,source:"Dropped by Skeletons in The Mines or crates and barrels in Skull Cavern, Artifact Spots"},
@@ -254,6 +260,10 @@ webpackJsonp([1],{"0Gaj":function(e,s){},"0pDX":function(e,s){},"1Z1F":function(
         {bundles:[{bundle_id:22,count:1,id:115}],name:"Duck Feather",skills:["farming"],seasons:["spring","summer","fall","winter"],id:108,source:"Produced by ducks in the coop (similar to how chickens and ducks lay eggs)"},
         {bundles:[{bundle_id:22,count:1,id:116},{bundle_id:39,count:1,id:180}],name:"Aquamarine",skills:["mining"],seasons:["spring","summer","fall","winter"],id:109,source:"Can be found in stones and boxes in The Mines."},
         {bundles:[{bundle_id:22,count:1,id:117}],name:"Red Cabbage",skills:["farming"],seasons:["summer"],id:110,source:"Crops during the Summer. Seeds can be purchased from Pierre's Year 2 and onward. Can be purchased from the Traveling Cart"},
+        {bundles:[{bundle_id:22,count:1,id:186}],name:"Beet",skills:["farming"],seasons:["fall"],id:173,source:"Fall Crops, seeds purchased at Oasis"},
+        {bundles:[{bundle_id:22,count:1,id:187}],name:"Amaranth",skills:["farming"],seasons:["fall"],id:174,source:"Fall Crops"},
+        {bundles:[{bundle_id:22,count:1,id:188}],name:"Starfruit",skills:["farming"],seasons:["summer"],id:175,source:"Summer Crops, seeds purchased at Oasis"},
+        {bundles:[{bundle_id:22,count:1,id:189}],name:"Iridium Bar",skills:["mining"],seasons:["spring","summer","fall","winter"],id:176,source:"Can be smelted in a furnace; Rarely obtained as a monster drop."},
 
         {bundles:[{bundle_id:23,count:1,id:118}],name:"Nautilus Shell",skills:["foraging"],seasons:["winter"],id:111,source:"Found by foraging from the beach in the Winter."},
         {bundles:[{bundle_id:23,count:1,id:119}],name:"Chub",skills:["fishing"],seasons:["spring","summer","fall","winter"],id:112,source:"Can be found in the mountain lake and river during all seasons."},
@@ -265,20 +275,29 @@ webpackJsonp([1],{"0Gaj":function(e,s){},"0pDX":function(e,s){},"1Z1F":function(
         {bundles:[{bundle_id:25,count:1,id:123},{bundle_id:36,count:1,id:161}],name:"Wine",skills:["farming","foraging"],seasons:["spring","summer","fall","winter"],id:117,source:"Produced by putting most fruits into a keg."},
         {bundles:[{bundle_id:25,count:1,id:124}],name:"Rabbit's Foot",skills:["farming","combat"],seasons:["spring","summer","fall","winter"],id:118,source:"Dropped by Rabbits in the Coop, also dropped by a Serpent in Skull Cavern (0.8%)."},
 
+        {bundles:[{bundle_id:41,count:10,id:190},{bundle_id:42,count:50,id:194}],name:"Salmonberry",skills:["foraging"],seasons:["spring"],id:177,source:"Spring forage, days 15-18 only"},
+        {bundles:[{bundle_id:41,count:1,id:191}],name:"Cookie",skills:[],seasons:["spring","summer","fall","winter"],id:178,source:"Cooking recipe; random gift in mail from the player's mother or Evelyn"},
+        {bundles:[{bundle_id:41,count:1,id:192}],name:"Ancient Doll",skills:["fishing","fishing"],seasons:["spring","summer","fall","winter"],id:179,source:"Artifact dug up from Mountain, Bus Stop, Forest, or Town; Fishing Treasure Chests"},
+        {bundles:[{bundle_id:41,count:1,id:193}],name:"Ice cream",skills:[],seasons:["spring","summer","fall","winter"],id:180,source:"Cooking recipe; purchase from Ice Cream Stand during Summer, or from the Oasis on Sundays"},
+
+        {bundles:[{bundle_id:43,count:10,id:197}],name:"Egg (any)",skills:["farming"],seasons:["spring","summer","fall","winter"],id:181,source:"Chicken, Duck, Ostrich"},
+        {bundles:[{bundle_id:43,count:10,id:198}],name:"Milk (any)",skills:["farming"],seasons:["spring","summer","fall","winter"],id:182,source:"Cow, Goat"},
+        {bundles:[{bundle_id:43,count:100,id:199}],name:"Wheat Flour",skills:["farming"],seasons:["spring","summer","fall","winter"],id:183,source:"Mill product from Wheat, purchase from Pierre's General Store"},
+
+        {bundles:[{bundle_id:44,count:1,id:200}],name:"Prize Ticket",skills:[],seasons:["spring","summer","fall","winter"],id:184,source:"Reward for Help Wanted Quests"},
+        {bundles:[{bundle_id:44,count:5,id:201}],name:"Mystery Box",skills:["mining","foraging","fishing"],seasons:["spring","summer","fall","winter"],id:185,source:"Found through various means (Fishing, Mining, chopping Trees)"},
+
+        {bundles:[{bundle_id:45,count:1,id:204}],name:"Jack-O-Lantern",skills:["farming"],seasons:["fall"],id:186,source:"Purchasable on Spirit's Eve"},
+
+        {bundles:[{bundle_id:46,count:1,id:205}],name:"Plum Pudding",skills:[],seasons:["winter"],id:187,source:"Cooking recipe from Queen of Sauce"},
+        {bundles:[{bundle_id:46,count:1,id:206}],name:"Stuffing",skills:[],seasons:["winter"],id:188,source:"Cooking recipe from Pam's 7 Heart Event"},
+        {bundles:[{bundle_id:46,count:5,id:207}],name:"Powdermelon",skills:["farming"],seasons:["winter"],id:189,source:"Winter Crop"},
+
 
         {bundles:[{bundle_id:26,count:1,id:125}],name:"2,500 Gold",skills:["farming","mining","foraging","fishing","combat"],seasons:["spring","summer","fall","winter"],id:119,source:"Collect 2,500 Gold and turn in."},
-
         {bundles:[{bundle_id:27,count:1,id:126}],name:"5,000 Gold",skills:["farming","mining","foraging","fishing","combat"],seasons:["spring","summer","fall","winter"],id:120,source:"Collect 5,000 Gold and turn in."},
-
         {bundles:[{bundle_id:28,count:1,id:127}],name:"10,000 Gold",skills:["farming","mining","foraging","fishing","combat"],seasons:["spring","summer","fall","winter"],id:121,source:"Collect 10,000 Gold and turn in."},
-
-        {bundles:[{bundle_id:29,count:1,id:128}],name:"25,000 Gold",skills:["farming","mining","foraging","fishing","combat"],seasons:["spring","summer","fall","winter"],id:122,source:"Collect 25,000 Gold and turn in."},
-        // {bundles:[{bundle_id:99,count:99,id:999}],name:"__",skills:["farming","mining","foraging","fishing","combat"],seasons:["spring","summer","fall","winter"],id:124,source:"__"},
-        // {bundles:[{bundle_id:99,count:99,id:999}],name:"__",skills:["farming","mining","foraging","fishing","combat"],seasons:["spring","summer","fall","winter"],id:125,source:"__"},
-        // {bundles:[{bundle_id:99,count:99,id:999}],name:"__",skills:["farming","mining","foraging","fishing","combat"],seasons:["spring","summer","fall","winter"],id:126,source:"__"},
-        // {bundles:[{bundle_id:99,count:99,id:999}],name:"__",skills:["farming","mining","foraging","fishing","combat"],seasons:["spring","summer","fall","winter"],id:127,source:"__"},
-        // {bundles:[{bundle_id:99,count:99,id:999}],name:"__",skills:["farming","mining","foraging","fishing","combat"],seasons:["spring","summer","fall","winter"],id:128,source:"__"},
-        // {bundles:[{bundle_id:99,count:99,id:999}],name:"__",skills:["farming","mining","foraging","fishing","combat"],seasons:["spring","summer","fall","winter"],id:999,source:"__"},
+        {bundles:[{bundle_id:29,count:1,id:128}],name:"25,000 Gold",skills:["farming","mining","foraging","fishing","combat"],seasons:["spring","summer","fall","winter"],id:122,source:"Collect 25,000 Gold and turn in."}
     ]
 }},qGkk:function(e,s){},"zD/W":function(e,s){},zP3V:function(e,s){},zsih:function(e,s){}},["NHnr"]);
 //# sourceMappingURL=app.5b4b37588a15f18449d5.js.map
