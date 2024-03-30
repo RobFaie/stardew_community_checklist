@@ -7,20 +7,20 @@ webpackJsonp([1],{"0Gaj":function(e,s){},"0pDX":function(e,s){},"1Z1F":function(
     ]
 }},ggs9:function(e,s){},hqyH:function(e,s){e.exports={
     bundles:[
-        {id:0,name:"Spring Foraging Bundle",room:0,reward:"Spring Seeds (30)",items_required:4},
+        {id:0,name:"Spring Foraging Bundle",room:0,reward:"Spring Seeds (30)",items_required:5},
         {id:1,name:"Summer Foraging Bundle",room:0,reward:"Summer Seeds (30)",items_required:3},
         {id:2,name:"Fall Foraging Bundle",room:0,reward:"Fall Seeds (30)",items_required:4},
-        {id:3,name:"Winter Foraging Bundle",room:0,reward:"Winter Seeds (30)",items_required:4},
+        {id:3,name:"Winter Foraging Bundle",room:0,reward:"Winter Seeds (30)",items_required:5},
         {id:5,name:"Exotic Foraging Bundle",room:0,reward:"Autumn's Bounty (5)",items_required:5},
         {id:4,name:"Construction Bundle",room:0,reward:"Charcoal Kiln",items_required:4},
         {id:30,name:"Sticky Bundle",room:0,reward:"Charcoal Kiln",items_required:1},
-        {id:31,name:"Forest Bundle",room:0,reward:"Charcoal Kiln",items_required:3},
+        {id:31,name:"Forest Bundle",room:0,reward:"Charcoal Kiln",items_required:4},
         {id:32,name:"Wild Medicine Bundle",room:0,reward:"Cookout Kit (2)",items_required:3},
 
-        {id:6,name:"Spring Crops Bundle",room:1,reward:"Speed-Gro (20)",items_required:4},
-        {id:7,name:"Summer Crops Bundle",room:1,reward:"Quality Sprinkler",items_required:4},
-        {id:8,name:"Fall Crops Bundle",room:1,reward:"Bee House",items_required:4},
-        {id:9,name:"Quality Crops Bundle",room:1,reward:"Preserves Jar",items_required:3},
+        {id:6,name:"Spring Crops Bundle",room:1,reward:"Speed-Gro (20)",items_required:6},
+        {id:7,name:"Summer Crops Bundle",room:1,reward:"Quality Sprinkler",items_required:5},
+        {id:8,name:"Fall Crops Bundle",room:1,reward:"Bee House",items_required:5},
+        {id:9,name:"Quality Crops Bundle",room:1,reward:"Preserves Jar",items_required:10},
         {id:10,name:"Animal Bundle",room:1,reward:"Cheese Press",items_required:5},
         {id:11,name:"Artisan Bundle",room:1,reward:"Keg",items_required:6},
         {id:33,name:"Rare Crops Bundle",room:1,reward:"Preserves Jar",items_required:1},
@@ -39,12 +39,12 @@ webpackJsonp([1],{"0Gaj":function(e,s){},"0pDX":function(e,s){},"1Z1F":function(
 
         {id:18,name:"Blacksmith's Bundle",room:3,reward:"Furnace",items_required:3},
         {id:19,name:"Geologists's Bundle",room:3,reward:"Omni Geode (5)",items_required:4},
-        {id:20,name:"Adventurer's Bundle",room:3,reward:"Small Magnet Ring",items_required:2},
+        {id:20,name:"Adventurer's Bundle",room:3,reward:"Small Magnet Ring",items_required:3},
         {id:39,name:"Treasure Hunter's Bundle",room:3,reward:"Lucky Lunch",items_required:5},
         {id:40,name:"Engineer's Bundle",room:3,reward:"Furnace",items_required:3},
 
         {id:21,name:"Chef's Bundle",room:4,reward:"Pink Cake (x3)",items_required:6},
-        {id:22,name:"Dye Bundle",room:4,reward:"Seed Maker",items_required:6},
+        {id:22,name:"Dye Bundle",room:4,reward:"Seed Maker",items_required:12},
         {id:23,name:"Field Research Bundle",room:4,reward:"Recycling Machine",items_required:4},
         {id:24,name:"Fodder Bundle",room:4,reward:"Heater",items_required:3},
         {id:25,name:"Enchanter's Bundle",room:4,reward:"Gold Bar (5)",items_required:4},
